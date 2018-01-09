@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./bin/run"
   },
   "dependencies": {
     "glace-js": "glacejs/glace-js"
