@@ -7,7 +7,9 @@
     "test": "./bin/run"
   },
   "dependencies": {
-    "glace-js": "glacejs/glace-js"
+    "connect": "^3.6.5",
+    "glace-js": "glacejs/glace-js",
+    "serve-static": "^1.13.1"
   },
   "author": "",
   "license": "ISC"
