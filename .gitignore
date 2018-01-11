@@ -63,3 +63,5 @@ typings/
 /reports/
 /testpage/Test_Task.html
 /xunit.xml
+.idea
+.vscode
