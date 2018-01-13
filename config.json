@@ -1,3 +1,4 @@
 {
-  "http-proxy" : false
+  "http-proxy" : false,
+  "grep" : "Make a spin"
 }
