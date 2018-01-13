@@ -1,1 +1,34 @@
-testpla
+Reels and console
+1) Reels and console UI
+Enter the game, check the interface. Reels should be empty.
+2) Empty reels on enter
+Enter the game, check reels. Check that balance is 1000.
+3) Check that you can spin
+Enter the game, make a spin. Check that reels have a combination.
+4) Check that you can spin multiple times
+Enter the game, make a spin. Check that reels have a combination. Spin again, check that you have new combination.
+5) Losing Spin
+Enter the game, make a losing spin. Ensure no win box. Balance has decresed by 1.
+6) Winning spin
+Enter the game, make a winning spin with random winning combination. Balance should increase correctly. Win box shown. Win box shows correct value.
+Reels are animating correctly. You can't spin during win.
+7) Check every possible combination
+Enter the game, make a spin with each combination. Check that win is granted. Check how balance increases.
+8) Check that you cant spin with balance zero
+========================================================================================================================
+Paytables
+1) Check paytables UI
+Enter the game, check all UI elements.
+2) Losing spin should not unlock anything
+Enter the game, make a losing spin. Ensure that no row is highlighted.
+3) Winning spins should highlight the correct row.
+Enter the game, make a spin with each combination. Check that correct row is highlighted.
+4) Win with same combination twice.
+Enter the game, make two spins with same winning combination. Ensure that it gets highlighted once and stays like this.
+========================================================================================================================
+Disconnection scenarios
+1) Refresh after entering
+2) Refresh after losing spin
+3) Refresh after a spin during win animations
+4) Refresh after a spin after animations
+5) Refresh with zero balance

@@ -21,6 +21,12 @@ test("Base", () => {
     chunk("Make a spin for testdata 111", async () => {
         await SS.spinAndCheckWinAndPaytable('111');
     });
-});
 
-test("")
+    chunk("Check balance increases by correct number", async () => {
+        await SS.openTestPage();
+        await SS.setTestDataForCombination('111');
+        await SS.spin();
+        await SS.checkWinBoxShown();
+        await SS.checkBalance(1059);
+    })
+});
