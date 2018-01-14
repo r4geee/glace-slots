@@ -19,3 +19,5 @@ cd DTestTask
 npm i
 npm test
 ```
+Place the Test_Task.html to:
+{project-root}/testpage directory
