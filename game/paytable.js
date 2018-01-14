@@ -1,6 +1,6 @@
-"use strict"
+"use strict";
 
-var paytable = {
+var payTable = {
     111 : 60,
     1111 : 80,
     11111 : 100,
@@ -16,6 +16,6 @@ var paytable = {
     555 : 300,
     5555 : 400,
     55555 : 500
-}
+};
 
-module.exports = paytable;
+module.exports = payTable;

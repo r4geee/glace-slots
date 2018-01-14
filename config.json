@@ -1,5 +1,4 @@
 {
   "http-proxy" : false,
-  "web-url" : "http://localhost:8080",
-  "grep" : "Check balance increases"
+  "web-url" : "http://localhost:8080"
 }
