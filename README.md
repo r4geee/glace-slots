@@ -9,7 +9,7 @@
 No Session/Local storage usage is stated, so the result would be always the same.
 
 # Prerequisites
-Check the glace-js page for prerequisites.
+Check the [glace-js](https://github.com/glacejs/glace-js)  page for prerequisites.
  
 # How to run
 Check the glace-js page for prerequisites. And also:
